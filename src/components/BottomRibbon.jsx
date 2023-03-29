@@ -3,7 +3,7 @@ import { IoShirtSharp } from "react-icons/io5";
 
 const BottomRibbon = () => {
   return (
-    <div className="fixed bottom-0 left-0 h-16 w-screen m-0 flex flex-row bg-gray-600 text-white shadow-lg">
+    <div className="fixed bottom-0 left-0 h-16 w-screen m-0 flex flex-row bg-gray-600 text-white shadow-lg z-50">
       <BottomRibbonIcon icon={<FaHome size="30" />} />
       <BottomRibbonIcon icon={<FaBinoculars size="30" />} />
       <div className="flex flex-col justify-items-center py-2 my-2 bg-gray-800 rounded-full">

@@ -31,14 +31,14 @@ const Post = (props) => {
   
   */
   return (  
-    <div className="w-full border-gray-600 overflow-hidden animate-fade-in-down">
+    <div className="w-full border border-gray-700 overflow-hidden animate-fade-in-down shadow-md rounded-lg">
       <div className="p-4 flex items-center bg-black rounded-t-lg">
         <Avatar uploader={{ name: postUploaderName, id: postUploaderID }} proPictureLink = {proPicture} />
       </div>
 
 
       <div className="bg-black px-4 py-2">
-        <p className="bg-gray-900 border rounded-lg border-gray-600 text-white relative z-10">{postContent}</p>
+        <p className="bg-gray-900 border rounded-lg border-gray-600 text-white relative px-4 py-2">{postContent}</p>
         <div className="absolute inset-0opacity-25"></div>
       </div>
 
